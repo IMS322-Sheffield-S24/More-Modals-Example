@@ -1,0 +1,45 @@
+/* Recommended CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+dialog {
+  margin: auto; /* centers the modal within the window */
+  padding: 2rem;
+  background-color: #99ccff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+textarea {
+  background-color: #e3f1ff;
+}
+
+textarea:focus {
+  outline: 4px solid #000000;
+}
+
+button:active {
+  outline: 2px solid #ff0000;
+}
+
+input[type="radio"] {
+  accent-color: #ffaa00;
+}
+
+/* --- */
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 480px) {
+}
